@@ -7,6 +7,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import portraitAsset from "@/assets/mehran-portrait.jpeg.asset.json";
+import visionImg from "@/assets/project-vision.jpg";
+import foodImg from "@/assets/project-food.jpg";
 
 const LINKS = {
   linkedin: "https://www.linkedin.com/in/mehran-ali-1472b6333",
