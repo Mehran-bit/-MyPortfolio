@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import heroImg from "@/assets/hero-3d.jpg";
+import portraitAsset from "@/assets/mehran-portrait.jpeg.asset.json";
 import visionImg from "@/assets/project-vision.jpg";
 import foodImg from "@/assets/project-food.jpg";
 
@@ -189,8 +189,8 @@ function Hero() {
           <div className="absolute inset-0 bg-gradient-to-tr from-neon/40 to-neon-2/40 blur-3xl rounded-full" />
           <motion.div animate={{ y: [0, -20, 0], rotate: [0, 2, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="relative rounded-3xl overflow-hidden glass p-2 glow-primary">
-            <img src={heroImg} alt="3D developer workspace" width={1280} height={1280}
-              className="w-full h-auto rounded-2xl" />
+            <img src={portraitAsset.url} alt="Mehran Ali — Full-Stack Developer" width={1280} height={1280}
+              className="w-full aspect-[3/4] object-cover rounded-2xl" />
           </motion.div>
           <motion.div animate={{ y: [0, 15, 0] }} transition={{ duration: 4, repeat: Infinity }}
             className="absolute -top-4 -right-4 glass rounded-2xl p-4 flex items-center gap-3">
