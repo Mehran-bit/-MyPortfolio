@@ -6,9 +6,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import heroImg from "@/assets/hero-3d.jpg";
-import visionImg from "@/assets/project-vision.jpg";
-import foodImg from "@/assets/project-food.jpg";
+import portraitAsset from "@/assets/mehran-portrait.jpeg.asset.json";
 
 const LINKS = {
   linkedin: "https://www.linkedin.com/in/mehran-ali-1472b6333",
